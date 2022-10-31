@@ -73,11 +73,11 @@ function copyText() {
 
 
   function onLoad() {
-    result.innerHTML = updateResult();
     lowerCaseOption.checked = true;
     upperCaseOption.checked = true;
     numbersOption.checked = true;
     symbolsOption.checked = true;
+    result.innerHTML = updateResult();
   }
 
 resultButton.addEventListener('click', () => {
